@@ -2,13 +2,17 @@
 
 ;body{
     font-family: Arial, sans-serif;
-    background-color: #1f1c1c;
+    background-color: black;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-modern-tuscany-portfolio-picture-image_1442936.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 h1, h3 {
@@ -36,7 +40,7 @@ button {
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 24px;
 }
 
 button:hover {
@@ -49,7 +53,7 @@ a {
 
 .perfil {
     text-align: center;
-    background-color: rgb(77, 67, 67);
+    background-color: rgb(30, 29, 29);
     padding: 20px;
     border-radius: 150px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
